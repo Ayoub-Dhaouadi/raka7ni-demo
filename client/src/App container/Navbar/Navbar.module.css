@@ -1,0 +1,44 @@
+header {
+    background-color: #FFCC1D;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navLinks li{
+
+    display: inline-block;
+    padding: 0 20px;
+}
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+    color: #333;
+    font-family: 'lato',sans-serif;
+}
+
+.navLinks li a:hover{
+    color: white;
+
+}
+
+.Login{
+    background-color: inherit;
+    border: none;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Signup{
+    padding: 9px 25px;
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}

@@ -1,0 +1,32 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.showcase3{
+    padding-top: 80px;
+}
+
+
+.single-ppl {
+    padding-top: 100px;
+    
+}
+
+h3{
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+}
+
+p {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single {
+    max-width: 100%;
+}

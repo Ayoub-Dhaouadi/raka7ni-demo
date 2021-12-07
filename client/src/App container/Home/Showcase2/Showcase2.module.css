@@ -1,0 +1,48 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid1 {
+    padding-top: 100px;
+}
+
+.grid1 h2 {
+    color: #142F43;
+} 
+.grid1 .f22 {
+    padding-top: 25px;
+    font-weight: 700;
+}
+.grid1 .f222 {
+    color: rgba(0, 0, 0, 0.5);
+}
+.grid2 {
+    padding-top: 80px;
+    position: relative;
+}
+
+.grid2 .f1 {
+    font-weight: 700;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+.grid2 .f11 {
+    padding-top: 40px;
+    margin-left: 30px;
+    font-weight: 700;
+    z-index: 1000;
+}
+
+.speak {
+    position: absolute;
+    max-width: 50px;
+    z-index: 100;
+    padding-top: -100px;
+}

@@ -1,0 +1,31 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.showcase{
+    height: 450px;
+    background-color: #FFCC1D;
+    position: relative;
+}
+.title1 {
+    padding-top: 80px;
+}
+
+.text1{
+    padding-top: 50px;
+    margin: 20px 0;
+}
+
+
+.showcase::before,
+.showcase::after {
+  content: '';
+  position: absolute;
+  height: 100px;
+  bottom: -50px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  transform: skewY(-3deg);
+}

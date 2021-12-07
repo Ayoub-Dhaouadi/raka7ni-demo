@@ -1,0 +1,24 @@
+.footer{
+    background-color: #FFCC1D;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 10px;
+    background-color: #FFCC1D;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-color: #FFCC1D;
+    border-radius: 5%;
+    font-size: 22px;
+}
+html {
+    scroll-behavior: smooth;
+} */
