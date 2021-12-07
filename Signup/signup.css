@@ -1,0 +1,58 @@
+*{
+    padding:0  ; 
+    margin: 0 ; 
+    /* box-sizing: border-box; */
+    line-height: 40px;
+}
+
+.sign-up ,.sign-in {
+    position:absolute ; 
+    top:50% ; 
+    left:50% ;
+    transform: translate(-50%,-60%);
+    text-align: center;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: rgb(211, 211, 211) 0px 2px 8px 0px; 
+    padding: 20px 40px 10px ; 
+    /* https://digitalsynopsis.com/design/beautiful-color-ui-gradients-backgrounds/ shuf kifeh ta3ml background lehned ken m3jbksh  */
+    background: linear-gradient( #ed4264 , #ffedbc);
+    color: white;
+    min-height: 500px;
+}
+p{
+    font-size: 20px;
+}
+.buttonandlogo{
+    position: absolute;
+    bottom:20% ; 
+    left:20%
+    
+}
+.button-form {
+    margin:20px  ; 
+    border : #fff 2px solid  ; 
+    border-radius:20px  ; 
+    color:#fff ; 
+    cursor: pointer;
+    transition:0.3s all ; 
+
+}
+.button-form:hover { 
+    color:#ec888d ; 
+    background-color: #fff;
+}
+.underline {
+    margin:10px  ; 
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    margin: auto ; 
+}
+.logo {
+    margin: 20px ; 
+
+    letter-spacing: 0.1rem ;
+    text-transform: capitalize;
+    font-size: 20px;
+}
